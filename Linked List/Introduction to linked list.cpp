@@ -293,17 +293,6 @@ public:
         cout << "Middle element = " << slow->data << "\n";
     }
 
-    /*
-    VISUAL of slow/fast pointer:
-    [10]-->[20]-->[30]-->[40]-->[50]-->NULL
-
-    Start: slow=10, fast=10
-    Step1: slow=20, fast=30
-    Step2: slow=30, fast=50
-    Step3: fast->next = NULL, STOP!
-    Middle = slow = 30 ✅
-    */
-
     // ========================
     // DISPLAY
     // ========================
