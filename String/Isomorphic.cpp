@@ -8,7 +8,7 @@ bool isIsomorphic(string s, string t)
         return false;
     for (int i = 0; i < s.size(); i++)
     {
-        if (v1[s[i]] != v2[s[i]])
+        if (v1[s[i]] != v2[t[i]])
         {
             return false;
         }
